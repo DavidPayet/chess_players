@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+
+
+.HomePage {
+  background-image: url("/medias/echiquier.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+
+  .homePage {
+    min-height: 1280px;
+
+    h1 {
+      color: rgb(252, 252, 252);
+      font-size: 60px;
+      padding-top: 30px;
+      padding-bottom: 80px;
+      font-family: 'Parisienne', cursive;
+      text-align: center;
+    }
+
+    .theMasterField {
+      padding: 0px;
+    }
+  }
+}

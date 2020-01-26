@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+
+.Players {
+  padding-bottom: 40px;
+
+  .players {
+    text-align: justify center;
+
+    .photo {
+      height: 110px;
+      width: 156px;
+      border-radius: 2px;
+    }
+
+    .item {
+      p {
+        margin-bottom: 0px;
+        color: rgb(252, 252, 252);
+        font-size: 25px;
+        font-weight: lighter;
+        font-family: 'Parisienne', cursive;
+        justify-content: center;
+      }
+
+      .deleteBtn {
+
+        button.btn.btn-secondary {
+          background: transparent;
+          border: none;
+          color: rgb(252, 252, 252);
+          font-size: 25px;
+
+        }
+
+        button.btn.btn-secondary:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+
+.ConnectionPage {
+  background-image: url("/medias/echiquier.jpg");
+  height: 1080px;
+  background-attachment: fixed;
+
+  .connectionPage {
+
+    h1 {
+      font-size: 80px;
+      padding-top: 50px;
+      padding-bottom: 210px;
+      color: rgb(252, 252, 252);
+      font-weight: lighter;
+      font-family: 'Parisienne', cursive;
+    }
+
+    .homePage-link {
+      background-color: rgba(0, 187, 112, 0.623);
+      border: none;
+      color: rgb(252, 252, 252);
+      height: 60px;
+      width: 180px;
+      font-size: 40px;
+      padding: 0px;
+      font-weight: lighter;
+      font-family: 'Parisienne', cursive;
+    }
+
+    .homePage-link:hover {
+      background-color: rgb(0, 187, 112);
+      color: rgb(41, 43, 42);
+      height: 61px;
+      width: 181px;
+      font-size: 41px;
+    }
+  }
+}
